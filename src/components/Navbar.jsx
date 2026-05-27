@@ -89,9 +89,7 @@ export default function Navbar() {
                         <Link href="/about" className={getLinkStyle("/about")}>
                             About
                         </Link>
-                        <Link href="/blog" className={getLinkStyle("/blog")}>
-                            Blogs
-                        </Link>
+                        
                         <Link href="/login" className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition">
                             Get Started
                         </Link>
@@ -159,9 +157,7 @@ export default function Navbar() {
                         <Link href="/about" onClick={() => setIsOpen(false)} className={getMobileLinkStyle("/about")}>
                             About
                         </Link>
-                        <Link href="/blog" onClick={() => setIsOpen(false)} className={getMobileLinkStyle("/blog")}>
-                            Blogs
-                        </Link>
+                        
                         <div className="pt-2 px-3">
                             <Link href="/login" onClick={() => setIsOpen(false)} className="block w-full rounded-lg bg-blue-600 px-4 py-2.5 text-center text-base font-medium text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
                                 Get Started
