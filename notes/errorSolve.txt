@@ -1,0 +1,5 @@
+এখন সমস্যা Tailwind-এর dark: styles apply হচ্ছে না। যেহেতু তুমি আগে বলেছ tailwind.config.js নাই, খুব সম্ভবত তুমি Tailwind v4 use করছো। সেখানে globals.css setup খুব গুরুত্বপূর্ণ।
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
