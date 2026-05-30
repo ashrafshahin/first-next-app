@@ -3,3 +3,13 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+
+GitHub knowledge
+
++changing folder name+
+Check your current directory: pwd
+Then list files: ls
+Old .next cache still exists: Delete the build cache: rm -rf .next
+Then run: npm install
+finally: npm run dev
